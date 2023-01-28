@@ -1,0 +1,4 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["dart"],
+  "flutter.lsp.initialization.closingLabels": true
+}
