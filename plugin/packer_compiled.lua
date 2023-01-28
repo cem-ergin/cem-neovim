@@ -144,6 +144,11 @@ _G.packer_plugins = {
     path = "/Users/ctw01856-admin/.local/share/nvim/site/pack/packer/start/jester",
     url = "https://github.com/David-Kunz/jester"
   },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/Users/ctw01856-admin/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
+  },
   ["leap.nvim"] = {
     loaded = true,
     path = "/Users/ctw01856-admin/.local/share/nvim/site/pack/packer/start/leap.nvim",

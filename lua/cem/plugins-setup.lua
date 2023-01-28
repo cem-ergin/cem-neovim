@@ -120,6 +120,9 @@ return packer.startup(function(use)
 	-- flutter snippets
 	use("Nash0x7E2/awesome-flutter-snippets")
 
+	-- lazygit
+	use("kdheepak/lazygit.nvim")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
