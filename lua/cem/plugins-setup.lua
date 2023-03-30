@@ -123,6 +123,15 @@ return packer.startup(function(use)
 	-- lazygit
 	use("kdheepak/lazygit.nvim")
 
+	-- coverage
+	use({
+		"andythigpen/nvim-coverage",
+		requires = "nvim-lua/plenary.nvim",
+		config = function()
+			require("coverage").setup()
+		end,
+	})
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
